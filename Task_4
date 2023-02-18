@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# product of 2 numbers gotten from user
+
+read -p "Enter first number: " number_1
+read -p "Enter second number: " number_2
+
+Result="$((number_1 * number_2))"
+
+echo "The product of $number_1 and $number_2 is $Result"
