@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# File Description
+# Insert File Description
 
 while read folder; do
 	mkdir "$folder"
