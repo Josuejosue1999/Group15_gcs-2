@@ -4,4 +4,4 @@
 while read folder; do
 	mkdir "$folder"
 	echo "Created folder $folder"
-done < folders.txt
+done < folder.txt
