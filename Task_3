@@ -1,0 +1,7 @@
+#!/bin/bash
+read -p "Type a phrase: " my_message
+
+echo "The number of the words is $(echo $my_message | wc -w)"
+
+count=$(echo -n "$my_message" | tr -d -c '[:space:]' | wc -m)
+echo "The number of white spaces is $count"
